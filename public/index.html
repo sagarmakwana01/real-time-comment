@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime comment system</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h4><strong>Realtime comment system using NodeJs, Express, Mongo DB
+                        Socket.io and vanila Javascript.
+                    </strong></h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Magnam reprehenderit
+                    alias sunt dolores enim quo veniam laborum fuga provident explicabo numquam,
+                    esse voluptates dolorem,dolorum sapiente doloribus. Placeat, omnis libero.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.Magnam reprehenderit
+                    alias sunt dolores enim quo veniam laborum fuga provident explicabo numquam,
+
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="border-bottom pb-2">Comments</h4>
+            </div>
+
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label>Write a comment</label>
+                    <textarea id="textarea" rows="3" class="form-control"></textarea>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <button id="submitBtn" class="btn btn-primary float-right">Post comment</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="typing text-success" ></div>
+                <ul class="comment__box">
+                    <!-- <li class="comment">
+                        <div class="card border-light mt-3">
+                            <div class="card-body">
+                                <h6>Sagar Makwana   </h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati aperiam neque
+                                    omnis nostrum id! Aspernatur id assumenda dicta cum tenetur expedita commodi
+                                    architecto et, aliquam quia nam mollitia ab inventore.
+                                </p>
+                                <div>
+                                    <img src="/img/clock.png" alt="clock">
+                                    <small>11:30 PM</small>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="comment">
+                        <div class="card border-light mt-3">
+                            <div class="card-body">
+                                <h6>Sagar Makwana</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati aperiam neque
+                                    omnis nostrum id! Aspernatur id assumenda dicta cum tenetur expedita commodi
+                                    architecto et, aliquam quia nam mollitia ab inventore.
+                                </p>
+                                <div>
+                                    <img src="/img/clock.png" alt="clock">
+                                    <small>11:30 PM</small>
+                                </div>
+                            </div>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>   
+    <script src="/js/app.js"></script>
+</body>
+
+</html>

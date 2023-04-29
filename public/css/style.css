@@ -1,0 +1,55 @@
+body{
+    background: whitesmoke;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Muli', sans-serif;
+}
+.btn{
+    float: right;
+    margin-top: 10px;
+}
+img{
+    width: 20px;
+    height: inherit;
+}
+.comment__box{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.comment__box .comment h6{
+    font-weight: 700;
+}
+
+p{
+    font-size: 17px;
+}
+
+/* .comment{
+    animation: something .6 ease forwards;
+}
+
+@keyframes something {
+    0%{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(3px);
+        opacity: 1;
+    }
+} */
+.comment {
+    animation-duration: 1.5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    0%{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+  }
+  
